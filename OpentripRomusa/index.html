@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Open Trip Eksklusif - Jelajahi Alam Bersama Kami">
+    <title>Open Trip Romusa | Jelajah Alam</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">    
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Romusa<span class="highlight">Trip</span>.</a>
+
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#details" class="nav-link">Fasilitas</a></li>
+                <li><a href="#itinerary" class="nav-link">Estimasi</a></li>
+                <li><a href="#crew" class="nav-link">Crew</a></li>
+                <li><a href="#contact" class="btn-primary">Hubungi Kami</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=2070&auto=format&fit=crop -->
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <!-- Using img tag as requested, not background-image -->
+        <div class="hero-image-wrapper">
+            <img src="assets/img/background.jpeg"
+                alt="Pemandangan Pegunungan dan Savana" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content container">
+            <span class="hero-subtitle reveal-text">Petualangan Menanti</span>
+            <h1 class="hero-title reveal-text delay-1">Jelajahi Dataran <br>Tinggi Hyang</h1>
+            <p class="hero-desc reveal-text delay-2">Bergabunglah dalam perjalanan 4 Hari 3 Malam menyusuri keindahan
+                alam yang belum terjamah.</p>
+            <a href="#price" class="btn-outline reveal-text delay-3">Lihat Paket</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Include / Exclude Section -->
+        <section id="details" class="section padding-y">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Fasilitas</span>
+                    <h2 class="section-title">Include & Exclude</h2>
+                    <p class="section-desc">Transparansi penuh untuk kenyamanan perjalanan Anda.</p>
+                </div>
+
+                <div class="details-grid">
+                    <div class="detail-card include-card fade-in-up">
+                        <div class="card-header">
+                            <i class="fas fa-check-circle icon"></i>
+                            <h3>Include</h3>
+                        </div>
+                        <ul class="detail-list">
+                            <li><i class="fas fa-check"></i> Makan 9x selama trip</li>
+                            <li><i class="fas fa-check"></i> Tiket Masuk Wisata Nasional</li>
+                            <li><i class="fas fa-check"></i> Homestay dan Tenda Camping</li>
+                            <li><i class="fas fa-check"></i> P3K Standar</li>
+                            <li><i class="fas fa-check"></i> Dokumentasi Premium</li>
+                            <li><i class="fas fa-check"></i> Ojek Basecamp-Mata air 1</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card exclude-card fade-in-up delay-1">
+                        <div class="card-header">
+                            <i class="fas fa-times-circle icon"></i>
+                            <h3>Exclude</h3>
+                        </div>
+                        <ul class="detail-list">
+                            <li><i class="fas fa-times"></i> Perlengkapan Pribadi</li>
+                            <li><i class="fas fa-times"></i> Obat-obatan Pribadi</li>
+                            <li><i class="fas fa-times"></i> Yang tidak ada diinclude</li>
+                            <li><i class="fas fa-times"></i> Upgrade Fasilitas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estimasi Waktu (Itinerary) Section -->
+        <section id="itinerary" class="section padding-y bg-darker">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Rencana Perjalanan</span>
+                    <h2 class="section-title">Durasi 4 Hari 3 Malam</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- Day 1 -->
+                    <div class="timeline-item fade-in-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="day-badge">Hari 1</span>
+                            <h3>Perjalanan menuju camp Cikasur</h3>
+                            <p class="time"><i class="far fa-clock"></i> 08:00 - 18:00 WIB</p>
+                            <p>Kumpul di meeting point dibasecamp baderan,dan melakukan perjalanan menuju Cikasur dan bermalam disana.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Day 2 -->
+                    <div class="timeline-item fade-in-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="day-badge">Hari 2</span>
+                            <h3>Trekking Menuju Sabana lonceng</h3>
+                            <p class="time"><i class="far fa-clock"></i> 06:00 - 16:00 WIB</p>
+                            <p>Sarapan, mulai pendakian santai melewati cisentor ,rawa embik dan sampai diSabana lonceng dan bermalam disana.</p>
+                        </div>
+                    </div>
+
+                    <!-- Day 3 -->
+                    <div class="timeline-item fade-in-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="day-badge">Hari 3</span>
+                            <h3>Turun menuju camp Danau Taman Hidup</h3>
+                            <p class="time"><i class="far fa-clock"></i> 07:00 - 15:00 WIB</p>
+                            <p>Setelah menikmati puncak dan sarapan pagi, perjalanan selanjutnya turun menuju taman hidup.</p>
+                        </div>
+                    </div>
+
+                    <!-- Day 4 -->
+                    <div class="timeline-item fade-in-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="day-badge">Hari 4</span>
+                            <h3>Perjalanan Pulang</h3>
+                            <p class="time"><i class="far fa-clock"></i> 09:00 - 14:00 WIB</p>
+                            <p>Packing, dan persipan turun menuju basecamp bremi dan disini perjalanan terakhir kita.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Crew Section -->
+        <section id="crew" class="section padding-y">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Tim Kami</span>
+                    <h2 class="section-title">Meet The Crew</h2>
+                    <p class="section-desc">Orang-orang berpengalaman yang akan menemani perjalanan Anda.</p>
+                </div>
+
+                <div class="crew-grid">
+                    <!-- Captain -->
+                    <div class="crew-card fade-in-up delay-1">
+                        <div class="crew-img-wrapper">
+                            <img src="assets/img/Toni.jpeg"
+                                alt="Captain" class="crew-img">
+                        </div>
+                        <div class="crew-info">
+                            <h3>Afatoni "Mas toni"</h3>
+                            <p class="role">Trip Leader</p>
+                            <a href="https://wa.me/6282337411164" target="_blank" class="btn-wa">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Sweeper -->
+                    <div class="crew-card fade-in-up delay-2">
+                        <div class="crew-img-wrapper">
+                            <img src="assets/img/Ilham.jpeg"
+                                alt="Sweeper" class="crew-img">
+                        </div>
+                        <div class="crew-info">
+                            <h3>Ilham Abdi "Mas Mahli"</h3>
+                            <p class="role">Sweeper</p>
+                            <a href="https://wa.me/6281252649586" target="_blank" class="btn-wa">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price Section -->
+        <section id="price" class="section padding-y bg-gradient">
+            <div class="container text-center">
+                <h2 class="section-title mb-4">Mulai Petualanganmu Sekarang</h2>
+                <div class="price-box fade-in-up">
+                    <p class="price-label">Harga Spesial</p>
+                    <h3 class="price-value">Rp 650.000<span>/pax</span></h3>
+                    <p class="price-note">*Harga sudah termasuk semua fasilitas di atas</p>
+                    <a href="https://wa.me/6285791257490?text=Halo%20Admin,%20saya%20tertarik%20join%20Open%20Trip"
+                        class="btn-primary large">Daftar Sekarang</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Romusa<span class="highlight">Trip</span>.</h3>
+                    <p>Membawa Anda lebih dekat dengan alam, dengan cara yang aman dan menyenangkan.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#details">Fasilitas</a></li>
+                        <li><a href="#itinerary">Jadwal</a></li>
+                        <li><a href="#crew">Tentang Kami</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Kontak & Lokasi</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Probolinggo, Jawa Timur</p>
+                    <p><i class="fas fa-user-circle"></i> Koordinator: M Rizqi Maulana</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>
+                            @romusa._fc</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom text-center">
+                <p>&copy; 2026 romusa._fc. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
